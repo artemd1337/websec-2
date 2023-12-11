@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: block;
+    text-align: center;
+    background-color: #f5f7fc;
+    min-width: 500px;
+}
+
+p {
+    margin: 0px;
+}
+
+.schedule {
+    padding: 1rem;
+    width: 100%;
+    max-width: 1400px;
+    min-width: 800px;
+
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.info_block {
+    background: linear-gradient(124.4deg, #2196f3, #443fa2 86.01%);
+    font-style: normal;
+    margin-bottom: 36px;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 1140px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.object_info_block {
+    color: #f5f7fc;
+}
+
+.object_name_string {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.schedule_header {
+    border: 1px solid;
+    border-color: #a6d5fa;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.current_week {
+    color: #2780e3;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.week_button {
+    color: #165ba8;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.schedule_table {
+    width: inherit;
+    table-layout: fixed
+}
+
+.table_elem {
+    border: 1px solid;
+    border-color: #a6d5fa;
+    font-family: "Roboto Light";
+    text-align: center;
+}
+
+.lesson {
+    text-align: left;
+}
+
+.date_info {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.subject {
+    margin: 0px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-style: normal;
+}
+
+.place {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .4px;
+}
+
+.teacher {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.lesson-group {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #165ba8;
+    text-decoration: underline;
+}
+
+.search_block {
+    width: 100%;
+    text-align: center;
+}
+
+.selection_field {
+    width: 60%;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+}
